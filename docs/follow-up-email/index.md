@@ -78,7 +78,7 @@ The top of the page shows the statistics table of the total number of emails sen
 
 #### 2.2. Add New Event
 
-From the Admin Panel, go to `Marketing > Follow Up Email > Manage Campaigns > Add Event`
+From the Admin Panel, go to `Marketing > Follow Up Email > Manage Campaigns > Add New Campaign or you can add to existed campaigns > Add Event`
 
 At the beginning of each event shows actions such as **Duplicate event, Edit event, Delete event, Reset event statistic** displayed on the created event as well as showing statistics of the total number of emails sent, opened, clicked and calculated the percentage of opened, clicked compared to the total email sent for that event.
 
