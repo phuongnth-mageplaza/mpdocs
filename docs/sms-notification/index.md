@@ -38,7 +38,9 @@ Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notific
 
 - Select **Enable = Yes** to enable the module.
 - **Phone Codes**: Allows displaying the country prefix number.
+
 ![](https://i.imgur.com/Xk8mxKn.png)
+
 - **SMS Delivery**: Choose the third-party for SMS integration ([Twilio](https://www.twilio.com/console), [Amazon SNS](https://aws.amazon.com/))
   - **Twilio Account SID**: Admin enter Account SID to be integrated SMS   gateway. If left blank, Twilio will not be applied.
   - **Twilio Account Token**: Admin enter Account Token to be integrated   SMS gateway. If left blank, Twilio will not be applied.
@@ -269,7 +271,7 @@ You have successfully subscribed to our newsletter! You will receive our next ne
 - **Unsubscribe Subscription:** Choose **Yes** to enable SMS sent to customers when they unsubscribe successfully
   - **Unsubscribe Message** shows up when **Unsubscribe Subscription = Yes.** Fill in message content
 ```
-	Hello {{firstname}}
+Hello {{firstname}}
 You have unsubscribed to our newsletter! Please feel free to register again at any time.
 ```
   - Supporting variables:
@@ -281,7 +283,7 @@ You have unsubscribed to our newsletter! Please feel free to register again at a
 - **Product Price Change Subscription:** Choose **Yes** to enable SMS sent to customers when admin changes the product price.
   - **Product Price Change Message** shows up when Product Price Change Subscription = Yes. Fill in message content
 ```
-	Hello {{firstname}}
+Hello {{firstname}}
 Product {{product_name}} has just updated the price. Visit {store_name}} to view more details!
 ```
   - Supporting variables: 
