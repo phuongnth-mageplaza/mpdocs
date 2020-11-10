@@ -71,6 +71,8 @@ Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notific
 
 #### 2. Cusstomer Notification
 
+2.1 Order Subscription
+
 ![](https://i.imgur.com/Ob1YprA.png)
 
 - **Enable**: Choose Admin selects the options to allow sending SMS to the customer.
@@ -383,6 +385,11 @@ Admin can help customers to register to receive notifications by entering custom
 
 ![](https://i.imgur.com/mCX3dTW.png)
 
-### III. Compatible with One Step Checkout
+### IV. REST API 
 
-![](https://i.imgur.com/5pLVWAu.png)
+Mageplaza SMS Notification supports using REST API to perform some requests: Register Notification, Check Verify, Send OTP, Verify Telephone
+
+View requests supported Mageplaza SMS Notification [here](https://documenter.getpostman.com/view/10589000/T1LPCRuN?version=latest). 
+
+View REST API guidellines of Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View create token guidelines [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html). 
+
