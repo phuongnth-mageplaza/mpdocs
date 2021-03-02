@@ -1,14 +1,14 @@
-# Sales Pop
+# Recent Sales Notification
 
 ## Overview
 
-[Mageplaza's Sales Pop Extension](https://www.mageplaza.com/magento-2-sales-pop/) allows Magento 2 websites to automatically show the message relating to current purchase by orther customers, updating the shopping trends of people via Popup. This module support displaying 3 types of Popup: Recent Sales, Checkout Total, Up-sell Product on pages: Home Page, Category, Product, View Cart, Checkout, so on. Popup can be displayed on both Desktop and Mobile at 4 different positions.
+[Mageplaza's Recent Sales Notification Extension](https://www.mageplaza.com/magento-2-recent-sales-notification/) allows Magento 2 websites to automatically show the message relating to current purchase by orther customers, updating the shopping trends of people via Popup. This module support displaying 3 types of Popup: Recent Sales, Checkout Total, Up-sell Product on pages: Home Page, Category, Product, View Cart, Checkout, so on. Popup can be displayed on both Desktop and Mobile at 4 different positions.
 
-Mageplaza Sales Pop extension is fully compatible with [Mageplaza Quick View](https://www.mageplaza.com/magento-2-quick-view/), [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), which supports viewing the full product details through the popup displayed on the screen and checkout more conveniently.
+Mageplaza Recent Sales Notification extension is fully compatible with [Mageplaza Quick View](https://www.mageplaza.com/magento-2-quick-view/), [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), which supports viewing the full product details through the popup displayed on the screen and checkout more conveniently.
 
 ## How to use
 
-- Sales Pop extension supports display on Desktop and Mobile with **4 positions**:
+- Recent Sales Notification extension supports display on Desktop and Mobile with **4 positions**:
   - **Top Left**: displays a popup at the top left of the page.
     - **Desktop**
     
@@ -28,19 +28,19 @@ Mageplaza Sales Pop extension is fully compatible with [Mageplaza Quick View](ht
   ![](https://i.imgur.com/MB6ELNq.png)
   - **Checkout Total Popup**: Displays total number of checked out customers:
   ![](https://i.imgur.com/FbPlzhF.png)
-  - **Upsell Popup**: Displays often bought together products:
+  - **Upsell Product**: Displays often bought together products:
   ![](https://i.imgur.com/YE4INhS.png)
 
 ## How to configure
 ### 1. Configuration
 
-Login to the Magento Admin, choose `Marketing > Sales Pop > Configuration`.
+Login to the Magento Admin, choose `Marketing > Recent Sales Notification > Configuration`.
 
-![](https://i.imgur.com/bBMTWw5.png)
+![](https://i.imgur.com/pzE5KMJ.png)
 
 #### 1.1. General
 
-![](https://imgur.com/fhz9kkC.png)
+![](https://i.imgur.com/F7Jb7Z3.png)
 
 - **Enable**: Select **Yes** to enable the module feature.
 - **Show Close Button**:
@@ -69,7 +69,7 @@ Login to the Magento Admin, choose `Marketing > Sales Pop > Configuration`.
 
 ### 2. Manage Popups
 
-Login to the Magento Admin, choose `Marketing > Sales Pop > Manage Popups`.
+Login to the Magento Admin, choose `Marketing > Recent Sales Notification > Manage Popups`.
 
 
 #### 2.1. Grid
@@ -78,7 +78,7 @@ Here records information of different types of popup: **Recent Sales, Checkout I
 
 ![](https://imgur.com/7sZuxux.png)
 
-#### 2.2. Create new sales popup
+#### 2.2. Create new popup
 ##### 2.2.1. General
 
 ![](https://i.imgur.com/VCfCfke.png)
@@ -186,7 +186,7 @@ Here records information of different types of popup: **Recent Sales, Checkout I
 
 In this section, you can configure each popup and the features similar to those in the Configuration parts above by choosing **Use Config** option in each field.
 
-![](https://i.imgur.com/Hu5oHOj.png)
+![](https://i.imgur.com/A1kEBo3.png)
 
 #### 2.2.3. Report
 
@@ -194,7 +194,7 @@ After Save or Save and Continue edit or edit popup will display **Statistics** o
 
 ##### General Report
 
-![](https://imgur.com/xhqGVHl.png)
+![](https://i.imgur.com/8JgcuVP.png)
 
 **Total Statistics**: This section records all the number of View(s), Click(s), Close(s) including Parent Statistics and Child Statistics.
 
@@ -202,7 +202,7 @@ After Save or Save and Continue edit or edit popup will display **Statistics** o
 
 After Click **Add A/B Testing** to create a **Child popup** and then will display more **A/B Testing Report tab** in **Parent popup** to report chart by View(s), Click(s), Close(s) of Parent popup and Child popup.
 
-![](https://imgur.com/FQJDwzd.png)
+![](https://i.imgur.com/tLDiFuT.png)
 
 - Click **Add A/B Testing** to create a new popup called **Child popup** with information fields available from parent popup. You can then change the child popup information such as the content, location, images, etc., from the entered values. Click **Save** or **Save and Continue edit** to save the newly created popup.
 - **Child popup** information will depend on the **Parent popup** like Status, Display On Page, Customer Groups, Store Views, Priority, etc. For example, if the Parent popup is off, the child popup will also be turned off in the Frontend.
@@ -213,14 +213,14 @@ After Click **Add A/B Testing** to create a **Child popup** and then will displa
 
 ### 3. Compatible Quick View
 
-Sales Pop is fully compatible with the [Mageplaza Quick View extension](https://www.mageplaza.com/magento-2-quick-view/) that will support viewing the full product details via the popup when clicking on the image of the product at popup.
+Recent Sales Notification is fully compatible with the [Mageplaza Quick View extension](https://www.mageplaza.com/magento-2-quick-view/) that will support viewing the full product details via the popup when clicking on the image of the product at popup.
 
 ![](https://i.imgur.com/K7zqF0u.gif)
 
 
 ### 4. API
 
-Mageplaza's Sales Pop extension supports the use of the **Rest API** to view a detailed list of all popup that the admin has created.
+Mageplaza's Recent Sales Notification extension supports the use of the **Rest API** to view a detailed list of all popup that the admin has created.
 
 - Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SWE2A1Dd?version=latest).
 - Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
